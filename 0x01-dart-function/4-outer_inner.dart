@@ -1,5 +1,5 @@
 void outer(String name, String id) {
-    print(inner(name, id));
+  print(inner(name, id));
 }
 
 String inner(String name, String id) {
