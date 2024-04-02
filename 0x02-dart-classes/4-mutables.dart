@@ -11,6 +11,10 @@ class Password {
     _password = value;
   }
 
+  void updatePassword(String newPassword) {
+    _password = newPassword;
+  }
+
   bool isValid() {
     RegExp hasUpper = RegExp(r'[A-Z]');
     RegExp hasLower = RegExp(r'[a-z]');
